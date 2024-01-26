@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1c2b4b;
+  font-family: 'JetBrains Mono', monospace;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+  color: #fff;
+  text-shadow: -2px -2px 2px #071127, 2px -2px 2px #071127, -2px 2px 2px #071127,
+    2px 2px 2px #071127;
+}
+
+.btn {
+  background-color: #071127;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.btn:focus {
+  outline: none;
+}
